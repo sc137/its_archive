@@ -1,0 +1,138 @@
+html,
+body {
+    background-color: #9cf;
+    font-size :14pt;
+    font-family : Verdana, Arial, sans-serif;
+    font-weight : normal;
+    color : slate;  
+    } 
+p {
+	font-family: Tahoma, sans-serif;
+	line-height: 120%;
+	margin-top: .9em;
+}
+h1 {
+	text-transform: uppercase;
+}
+#wrapper {
+	width: 760px;
+	margin: 15px auto;
+	position: relative;
+	overflow: hidden;
+	}	
+#header {
+	padding: 0 0 5px 0;
+	width: 760px;
+	position: relative;
+}
+#content {
+	overflow: hidden;
+	background-color: white;
+	padding-bottom: 40px;	/* Size of footer */
+	width: 760px;
+}
+.clear {
+	clear: both;
+}
+#title {
+	padding: 10px;
+	border-bottom: solid thin #369;
+}
+
+#title h1 {
+	font-weight: bold;
+	font-size: 1.7em;
+	color: #191919;
+	text-shadow: 5px 3px 2px #cccccc;
+	filter: dropshadow(color=#7e8085, offx=2, offy=2);
+}
+
+#sidebar {
+	position: relative;
+	float: left;
+	width: 169px;
+	border-right: solid thin #369;
+	padding: 15px 5px 25px 10px;
+}
+
+ul#nav {
+	text-transform: capitalize;
+	margin: 1em 0 2em 0;
+	font-size: medium;
+	line-height: 1.5em;
+}
+ul#subnav {
+	margin: 1em 0 2em 0;
+	font-size: small;
+	font-weight: 100;
+	line-height: 1.5em;
+}
+#sidebar a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+#sidebar a:visited {
+	color: gray;
+}
+#sidebar .current {
+	background-color: #dcf0ff;
+}
+#textarea {
+	position: relative;
+	float: right;
+	width: 500px;
+	padding: 5px 40px 25px 0px;
+}
+#textarea img {
+	border: thin black;
+	margin: auto;
+	padding: 1.5em;
+	width: 400px;
+}
+#textarea h1 {
+	margin-top: 1.2em;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+#textarea h2 {
+	margin-top: 2em;
+	color: #369;
+	font-weight: bold;
+}
+#textarea ul {
+	list-style: square;
+	padding-left: 3em;
+	padding-top: 1.2em;
+	font-size: .9em;
+}
+#textarea hr {
+	margin-top: 1.2em;
+}
+#textarea .pdf {
+	padding: 0 5px 5px 40px;
+	margin-left: 5px;
+	background: url('../images/pdf.png') no-repeat; 
+	background-size: 30px 30px;
+	background-position: 0 5px;
+	background-color: #dcf0ff;
+}
+#textarea .email {
+	padding-left: 25px;
+	margin-left: 5px;
+	background: url('../images/email_icon_small.png') no-repeat; 
+	background-position: 0 5px;
+}
+#footer {
+	position: relative;
+	width: 760px;
+	height: 40px;
+	background: #369;
+	}
+	
+#footer p {
+	color: #ffffff ;
+	font-size: 10px;
+	line-height: 40px;	/* this centers the text in the footer div */
+	letter-spacing: .2em;
+	}
