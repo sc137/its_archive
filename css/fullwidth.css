@@ -1,0 +1,11 @@
+#sidebar {
+	display: none;
+}
+
+
+#textarea {
+	position: relative;
+	float: left;
+	padding: 0 25px 15px 40px;
+	width: 650px;
+}
