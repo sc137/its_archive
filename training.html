@@ -9,6 +9,22 @@
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 <!-- 	<link rel="stylesheet" href="template/rio.css" type="text/css"> -->
 	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+			// Accordion
+			$("#accordion").accordion({ header: "h3", collapsible: true, active: false });
+
+			//hover states on the static widgets
+			$('#dialog_link, ul#icons li').hover(
+				function() { $(this).addClass('ui-state-hover'); },
+				function() { $(this).removeClass('ui-state-hover'); }
+			);
+
+		});
+	</script>
 </head>
 
 
@@ -51,8 +67,9 @@
 	
 	<p>How To's</p>
 	<ul id="subnav">
-				<li><a href="sars-notifications.html" title="SARS-Grid How-To" target="_blank">SARS-GRID: Repeat Notifications</a></li>
-				<li><a href="sars-guestid.html" title="SARS-Grid Create a Guest ID" target="_blank">SARS-GRID: Guest ID</a></li>
+				<li><a href="ios.html" title="Configure Your iOS Device with Exchange">Configure iOS</a></li>
+				<li><a href="sars-notifications.html" title="SARS-Grid How-To" >SARS-GRID: Repeat Notifications</a></li>
+				<li><a href="sars-guestid.html" title="SARS-Grid Create a Guest ID" >SARS-GRID: Guest ID</a></li>
 			</ul>
 	
 	<p><a href="http://accessrio.riohondo.edu" target="_blank" title="Go to Access Rio"><img src="images/access_rio_150.png" alt="logo_AccessRio_small" width="150" /></a></p>
@@ -63,11 +80,54 @@
 <p class="email">E-mail: <a href="mailto:jcantus@riohondo.edu?subject=[WEB CONTACT]" title="Click here to send an email to the IT Trainer">jcantus@riohondo.edu</a><br />
 Phone: (562) 463-3742
 </p>
+<br />
 
+
+<h2>Summer Workshop Series 2012</h2>
+
+<p>We focused on communicating and collaborating in the cloud. We had a wonderful turnout to the workshops. Click on one of the titles below for more information.</p>
+
+<div id="accordion">
+				
+	<h3 id="workshop1-mailchimp"><a href="#">Workshop #1 - MailChimp</a></h3>
+		<div>
+			
+			<p>We had a lot of fun in this workshop and the fruits of our labor is already blooming on campus.</p>
+			<p>If you would like to review the notes of what we covered in the workshop they are <a href="notes_mailchimp.html">here</a>.</p>
+			
+		</div>
+		
+		<h3 id="workshop2-dropbox"><a href="#">Workshop #2 - Dropbox</a></h3>
+	<div>
+			
+			<p><strong>We had a great class. Please view the notes <a href="notes_dropbox.html">here</a></strong></p>
+		
+			
+	</div>
+	
+	<h3 id="workshop3-googledocs"><a href="#">Workshop #3 - Google Docs</a></h3>
+	
+	<div>
+	
+			<!-- <p>Please take the <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDdLT09hQkFYUGllci03SnZJS3J6M3c6MQ" target="_blank">workshop survey</a>.</p> -->
+			<p>We had a great workshop. Thanks for coming. Your participation and hard work made it worthwhile.</p>
+			
+			<p>Here is a <a href="https://docs.google.com/presentation/pub?id=1a4H1ju218t1A1RbKBwGr8mPt-GbsVZTe5PuTLywpCts&start=false&loop=false&delayms=3000">copy of the presentation</a>.</p>
+			
+			<p>Here is a fun sample survey we made.</p>
+			<p>&nbsp;</p>
+			
+			<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFBjWmcteV96a3hvNFdSMHJqbkFzYmc6MQ" width="400" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			
+	</div>
+
+</div><!-- end summer workshops -->
+
+<br />
 
 <h2>Tech Training Workshops</h2>
 
-<p>The ITS Technology Systems Trainer provides training and support for faculty and staff.  We offer   training classes throughout the semester for in-demand topics such as:</p>
+<p>The Technology Systems Trainer provides training and support for faculty and staff.  We offer training classes throughout the semester for in-demand topics. Some of last years workshops were:</p>
 
 <ul title="Workshop Topics">
 	<li>Word 2010</li>
@@ -78,7 +138,9 @@ Phone: (562) 463-3742
 	<li>Using Windows 7</li>
 </ul>
 
-<p>The workshops this year have come to a successful conclusion.  Please keep an eye out in the Fall for upcoming workshops.  Please contact the good folks at Staff Development if you have ideas or suggestions for the Fall.</p>
+<p>The 2011-2012 academic year workshops were well attended and we had a lot of fun.  Please keep an eye out in the Fall for upcoming workshops.  Please contact the good folks at <a href="http://www.riohondo.edu/staffdev/">Staff Development</a> if you have ideas or suggestions for important topics.</p>
+
+<p>Would you like to know what we offered last spring? Download the schedule.</p>
 
 <p class="pdf"><a href="images/2012_spring.pdf" title="Click here to download the Spring 2012 Workshop schedule">PRIOR WORKSHOPS - Download the Spring 2012 Technology Training Workshops Schedule</a></p>
 
@@ -96,15 +158,15 @@ Phone: (562) 463-3742
 
 <p>The idea behind virtual office hours is that we can have small groups and/or individuals pop-in for a specific question such as "how can I make my powerpoint file size smaller?" or "How do I archive my Outlook PST file?".  Using CCCConfer for the virtual office hours allows part-time and off-campus staff members an easy way to utilize our training resources.</p>
 
-<p>Schedule of Virtual Office Hours, Spring 2012.  Conference sign-in information will be available close to the scheduled date.</p>
-<ul title="Schedule of Spring Virtual Office Hours">
-	<li>Friday, March 9th 10 a.m.</li>
-	<li>Friday, April 20th, 10 a.m.</li>
-</ul>
-	
-<h2>SARS-GRID</h2>
+<p>No virtual office hours are scheduled at this time.</p>
 
-<p>We provide installation and usage support for SARS-GRID on campus.  Please contact the help desk with your specific issue.  Please call Sable for immediate assistance.</p>
+<h2>Virtual Training</h2>
+
+<p>We provide over-the-phone and webinar style support for requested training using both CCCConfer and Team Viewer. Please feel free to contact us if you would like to schedule a virtual training.</p>
+	
+<h2>SARS-GRID and SARS-TRAK</h2>
+
+<p>We provide installation and usage support for SARS-GRID and SARS-TRAK on campus.  Please contact the help desk with your specific issue.  Please call Sable for immediate assistance.</p>
 
 </div>
 

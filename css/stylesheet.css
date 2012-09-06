@@ -1,7 +1,7 @@
 html,
 body {
     background-color: #9cf;
-    font-size :14pt;
+    font-size: 12pt;
     font-family : Verdana, Arial, sans-serif;
     font-weight : normal;
     color : slate;  
@@ -13,6 +13,9 @@ p {
 }
 h1 {
 	text-transform: uppercase;
+}
+strong {
+	font-weight: 900;
 }
 #wrapper {
 	width: 760px;
@@ -78,6 +81,24 @@ ul#subnav {
 #sidebar .current {
 	background-color: #dcf0ff;
 }
+blockquote{
+	margin-left: 25px;
+	line-height: 1.2em;
+	font-style: italic;
+}
+code {
+	background: #e7e7f5;
+	color: #333;
+	padding: 0.5em;
+	width: 55%;
+	list-style: none;
+	font-size: 0.8em;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+figcaption {
+	display: none;
+}
 #textarea {
 	position: relative;
 	float: right;
@@ -88,17 +109,26 @@ ul#subnav {
 	border: thin black;
 	margin: auto;
 	padding: 1.5em;
+/*
 	width: 400px;
+*/
 }
 #textarea h1 {
 	margin-top: 1.2em;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 #textarea h2 {
 	margin-top: 2em;
 	color: #369;
 	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+#textarea h3 {
+	margin-top: 2em;
+	color: #369;
+	font-weight: normal;
+	font-size: .93em;
 }
 #textarea ul {
 	list-style: square;
@@ -123,6 +153,17 @@ ul#subnav {
 	background: url('../images/email_icon_small.png') no-repeat; 
 	background-position: 0 5px;
 }
+
+.right {
+	position: relative;
+	float: right;
+}
+
+.left {
+	position: relative;
+	float: left;
+}
+
 #footer {
 	position: relative;
 	width: 760px;
