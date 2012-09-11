@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 <!-- 	<link rel="stylesheet" href="template/rio.css" type="text/css"> -->
 	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 </head>
 
 
@@ -49,12 +50,12 @@
 		<li><a href="training.html" title="IT Training">Training</a></li>
 	</ul>
 	
-	<p>How To's</p>
-	<ul id="subnav">
-				<li><a href="ios.html" title="Configure Your iOS Device with Exchange">Configure iOS</a></li>
-				<li class="current"><a href="sars-notifications.html" title="SARS-Grid How-To" >SARS-GRID: Repeat Notifications</a></li>
-				<li><a href="sars-guestid.html" title="SARS-Grid Create a Guest ID" >SARS-GRID: Guest ID</a></li>
-			</ul>
+	<div id="subnav">
+	<p><em>Please enable Javascript to view this navigation</em></p>
+	<script>
+			  $("#subnav").load("howto_nav.html");
+			</script>
+	</div>
 	
 	
 	<p><a href="http://accessrio.riohondo.edu" target="_blank" title="Go to Access Rio"><img src="images/access_rio_150.png" alt="logo_AccessRio_small" width="150" /></a></p>
