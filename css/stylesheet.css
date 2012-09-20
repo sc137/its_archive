@@ -128,7 +128,8 @@ figcaption {
 	margin-top: 2em;
 	color: #369;
 	font-weight: normal;
-	font-size: .93em;
+	font-size: .97em;
+	text-transform: uppercase;
 }
 #textarea ul {
 	list-style: square;
