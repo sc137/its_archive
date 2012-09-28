@@ -165,6 +165,12 @@ figcaption {
 	background-position: 0 5px;
 }
 
+#textarea .note {
+	background-color: yellow;
+	border: thin solid gray;
+	padding: 3px 0 3px 7px;
+}
+
 .right {
 	position: relative;
 	float: right;
