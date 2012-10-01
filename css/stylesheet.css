@@ -35,7 +35,7 @@ strong {
 	position: relative;
 	}	
 #content {
-	overflow: hidden;
+	overflow: visible;
 	background-color: white;
 	padding-bottom: 40px;	/* Size of footer */
 	width: 100%;
@@ -120,9 +120,6 @@ figcaption {
 	border: thin black;
 	margin: auto;
 	padding: 1.5em;
-/*
-	width: 400px;
-*/
 }
 #textarea h1 {
 	margin-top: 1.2em;
@@ -160,28 +157,42 @@ figcaption {
 	background-color: #dcf0ff;
 }
 #textarea .email {
-	padding-left: 25px;
+	padding-left: 35px;
 	margin-left: 5px;
-	background: url('../images/email_icon_small.png') no-repeat; 
-	background-position: 0 5px;
+	background: url('../images/envelope.png') no-repeat; 
+	background-position: left center;
 }
-
 #textarea .note {
 	background-color: yellow;
 	border: thin solid gray;
-	padding: 3px 0 3px 7px;
+	margin: 5px 5px 5px 25px;
+	padding: 0px 0 5px 10px;
+	width: 75%;
 }
-
+#textarea .flash {
+	clear: right;
+	background-image: url('../images/flash.png');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#textarea .signup {
+	background-image: url('../images/pencil.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#textarea .signup p {
+	padding-top: 5px;
+	margin-left: 35px;
+	height: 1.5em;
+}
 .right {
 	position: relative;
 	float: right;
 }
-
 .left {
 	position: relative;
 	float: left;
 }
-
 #footer {
 	position: relative;
 	width: 100%;
