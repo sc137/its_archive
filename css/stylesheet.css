@@ -72,6 +72,13 @@ ul#nav {
 	font-size: medium;
 	line-height: 1.5em;
 }
+ul#nav .nav_indent {
+	margin: .5em 0 .5em 1.5em;
+	text-transform: capitalize;
+	font-size: small;
+	font-weight: 100;
+	line-height: 1.3em;
+}
 ul#subnav {
 	margin: 1em 0 2em 0;
 	font-size: small;
