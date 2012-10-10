@@ -5,7 +5,7 @@ body {
     font-size: 12pt;
     font-family : Verdana, Arial, sans-serif;
     font-weight : normal;
-    color : slate;  
+    color : #1b1b1b;  
     } 
 p {
 	font-family: Tahoma, sans-serif;
@@ -151,6 +151,8 @@ figcaption {
 	padding-left: 3em;
 	padding-top: 1.2em;
 	font-size: .9em;
+	line-height: 1.5em;
+	font-weight: 100;
 }
 #textarea hr {
 	margin-top: 1.2em;
