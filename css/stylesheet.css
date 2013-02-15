@@ -197,6 +197,11 @@ figcaption {
 	margin-left: 35px;
 	height: 1.5em;
 }
+table {
+	width: 500px;
+	margin-left: 15px;
+	line-height: 1.2;
+}
 .right {
 	position: relative;
 	float: right;
