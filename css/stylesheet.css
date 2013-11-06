@@ -217,9 +217,10 @@ table {
 	background: rgba(48,104,160,0.83);
 	}
 	
-#footer p {
+#footer p:before {
 	color: #ffffff ;
-	font-size: 10px;
+	font-size: 0.769em;
 	line-height: 40px;	/* this centers the text in the footer div */
 	letter-spacing: .2em;
+	content: "©2013 Rio Hondo College 3600 Workman Mill Road Whittier CA 90601 562.692.0921";
 	}
